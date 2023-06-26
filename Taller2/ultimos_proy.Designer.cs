@@ -46,12 +46,15 @@
             // 
             // data
             // 
+            this.data.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.data.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data.Location = new System.Drawing.Point(152, 125);
             this.data.Name = "data";
             this.data.RowTemplate.Height = 25;
             this.data.Size = new System.Drawing.Size(435, 150);
             this.data.TabIndex = 1;
+            this.data.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_CellContentClick);
             // 
             // ultimos_proy
             // 

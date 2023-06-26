@@ -78,11 +78,13 @@
             // 
             // data
             // 
+            this.data.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.data.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.data.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data.Location = new System.Drawing.Point(95, 207);
             this.data.Name = "data";
             this.data.RowTemplate.Height = 25;
-            this.data.Size = new System.Drawing.Size(255, 81);
+            this.data.Size = new System.Drawing.Size(255, 113);
             this.data.TabIndex = 5;
             this.data.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_CellContentClick);
             // 
@@ -95,7 +97,7 @@
             this.lista_proyectos.TabIndex = 6;
             this.lista_proyectos.SelectedIndexChanged += new System.EventHandler(this.lista_proyectos_SelectedIndexChanged);
             // 
-            // prof_dirigir_dep
+            // prof_dirigir_proy
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -106,7 +108,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.out_text1);
-            this.Name = "prof_dirigir_dep";
+            this.Name = "prof_dirigir_proy";
             this.Text = "prof_dirigir_dep";
             this.Load += new System.EventHandler(this.prof_dirigir_dep_Load);
             ((System.ComponentModel.ISupportInitialize)(this.data)).EndInit();

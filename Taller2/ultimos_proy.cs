@@ -24,5 +24,10 @@ namespace Taller2
             string query = " SELECT Proyecto.Codigo_proyecto, Proyecto.Nombre_proyecto, Profesor.Rut_profesor, Profesor.Nombre_profesor FROM Proyecto INNER JOIN Profesor ON Proyecto.ProfesorRut_profesor = Profesor.Rut_profesor WHERE YEAR(Proyecto.Fecha_inicio) >= YEAR(CURDATE()) - 3 ";
             data.DataSource=cone.SelectQuery(query);
         }
+
+        private void data_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
