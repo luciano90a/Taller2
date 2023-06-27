@@ -51,7 +51,7 @@
             // 
             // Seccion_modificaciones
             // 
-            this.Seccion_modificaciones.Location = new System.Drawing.Point(251, 161);
+            this.Seccion_modificaciones.Location = new System.Drawing.Point(251, 165);
             this.Seccion_modificaciones.Name = "Seccion_modificaciones";
             this.Seccion_modificaciones.Size = new System.Drawing.Size(221, 66);
             this.Seccion_modificaciones.TabIndex = 1;
